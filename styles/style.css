@@ -102,15 +102,14 @@ filter: invert(55%) sepia(30%) saturate(3640%) hue-rotate(311deg) brightness(106
 }
 
 .map {
-  mix-blend-mode: screen;
-  display: block;
-  height: 54%;
-  width: auto;
   position: fixed;
+  top: 45vh;
   left: 50%;
+  width: 31%;
   transform: translate(-50%);
-  top: 33vh;
-  filter: invert(1);
+  font-size: 1.1rem;
+  font-family: Garamond, serif;
+  text-align: center;
   opacity: 0;
   transition: opacity 0.5s;
   z-index: 0;
@@ -161,7 +160,7 @@ filter: invert(55%) sepia(30%) saturate(3640%) hue-rotate(311deg) brightness(106
   max-height: 55vh;
   overflow-x: hidden;
   overflow-y: auto;
-  z-index: 999;
+  z-index: 99;
   opacity: 0;
   transition: opacity 0.5s;
 }
