@@ -18,6 +18,7 @@ body {
   /* margin-right: auto; */
   display: block;
   position: fixed;
+  transform: rotate(1deg);
 }
 
 /* .logo:hover {
@@ -235,4 +236,32 @@ a:hover {
 .directions:hover {
   cursor: pointer;
   color: #e37676;
+}
+
+@media all and (max-width: 960px) {
+  .logo {
+    width: 89%;
+    left: 6%;
+    top: 9vh;
+  }
+
+  .header {
+    left: 3vw;
+    transform: none;
+  }
+
+  .bottom-nav{
+    display: none;
+  }
+
+  .language{
+    bottom: 3vh;
+    left: 3vw;
+    right: unset; 
+    top: unset;
+  }
+
+  .main {
+    display: none;
+  }
 }
