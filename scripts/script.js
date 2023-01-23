@@ -26,10 +26,12 @@ directions.addEventListener('click', () => {
     main.style.opacity = 0;
     map.style.opacity = 1;
     intro.style.opacity = 0;
+    map.style.zIndex = 99;
   } else {
     main.style.opacity = 0;
     map.style.opacity = 0;
     intro.style.opacity = 1;
+    map.style.zIndex = 0;
   }
 });
 
