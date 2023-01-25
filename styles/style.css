@@ -376,7 +376,7 @@ a:hover {
   text-align: center;
   font-size: 1.6em;
   padding: 85px 0 93px 0;
-  width: 48%;
+  width: 52%;
 }
 
 #mobiledirections {
@@ -404,12 +404,12 @@ a:hover {
 #mobileaddress {
   display: block;
   font-family: Garamond, Times;
-  font-size: 1.6em;
+  font-size: 1.1em;
   line-height: 1em;
   text-align: center;
   position: absolute;
   transform: translate(50%);
-  left: 25px;
+  left: 75px;
   bottom: -10.5vh;
 }
 
