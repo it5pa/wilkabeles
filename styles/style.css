@@ -171,10 +171,10 @@ filter: invert(55%) sepia(30%) saturate(3640%) hue-rotate(311deg) brightness(106
 }
 
 .infomobile {
-  position: fixed;
+  position: absolute;
   top: 9vh;
   left: 50%;
-  width: 69%;
+  width: 76%;
   transform: translate(-50%);
   font-size: 1.1rem;
   font-family: Garamond, serif;
