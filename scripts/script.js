@@ -6,7 +6,6 @@ const main = document.querySelector(".main");
 const title = document.querySelector('#name');
 const description = document.querySelector('#description');
 const par = document.querySelector(".par");
-const intro = document.querySelector('.intro');
 const map = document.querySelector(".map");
 const wolf = document.querySelector(".wolf");
 const apple = document.querySelector(".apple");
@@ -45,10 +44,8 @@ par.addEventListener('click', () => {
   if (main.style.opacity == 0) {
     main.style.opacity = 1;
     map.style.opacity = 0;
-    intro.style.opacity = 0;
   } else {
     main.style.opacity = 0;
     map.style.opacity = 0;
-    intro.style.opacity = 1;
   }
 });
