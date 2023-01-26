@@ -22,13 +22,14 @@ sazinies.addEventListener('mouseleave', () => {
 
 directions.addEventListener('click', () => {
   if (map.style.opacity == 0) {
+    map.style.display = 'block';
     main.style.opacity = 0;
     map.style.opacity = 1;
     map.style.zIndex = "999";
   } else {
     main.style.opacity = 1;
     map.style.opacity = 0;
-    map.style.zIndex = "0";
+    map.style.display = 'none';
   }
 });
 
