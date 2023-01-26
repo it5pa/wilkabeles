@@ -24,11 +24,11 @@ directions.addEventListener('click', () => {
   if (map.style.opacity == 0) {
     main.style.opacity = 0;
     map.style.opacity = 1;
-    map.style.zIndex = 999;
+    map.style.zIndex = "999";
   } else {
     main.style.opacity = 1;
     map.style.opacity = 0;
-    map.style.zIndex = 0;
+    map.style.zIndex = "0";
   }
 });
 
