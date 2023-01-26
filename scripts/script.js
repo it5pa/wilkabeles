@@ -28,8 +28,9 @@ directions.addEventListener('click', () => {
     map.style.zIndex = 999;
   } else {
     main.style.opacity = 1;
+    main.style.zIndex = 999;
     map.style.opacity = 0;
-    map.style.zIndex = '';
+    map.style.zIndex = 0;
   }
 });
 
